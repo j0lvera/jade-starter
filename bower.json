@@ -1,0 +1,30 @@
+{
+  "name": "html5-starter",
+  "version": "0.1.0",
+  "authors": [
+    "Juan Olvera <thinkxl@gmail.com>"
+  ],
+  "description": "html5 starter boilerplate",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "html5",
+    "boilerplate",
+    "less",
+    "grunt"
+  ],
+  "license": "MIT",
+  "homepage": "http://thinkxl.github.io/html5-starter/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize.css": "~3.0.1"
+  }
+}

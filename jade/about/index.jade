@@ -1,0 +1,18 @@
+// Tell if is an inner page or a root page 
+// for path purposes
+- var inner = true
+
+include ../inc/header.jade
+  body
+    .hero-unit
+      h1= "Yo yo2!"
+      p Inner page example
+
+    <!-- build:js js/vendor.js -->
+    <!-- bower:js -->
+
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js js/main.min.js -->
+    script(src= "../js/main.js")

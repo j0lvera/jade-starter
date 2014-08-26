@@ -1,0 +1,40 @@
+{
+  "name": "html5-starter-boilerplate",
+  "version": "0.1.0",
+  "description": "html5 Starter Boilerplate",
+  "license": "MIT",
+  "repository": "thinkxl/html5-starter",
+  "author": "Juan Olvera",
+  "main": "js/main.js",
+  "keywords": [
+    "html5",
+    "web",
+    "front-end",
+    "h5bp",
+    "modernizr",
+    "jquery",
+    "grunt"
+  ],
+  "dependencies": {
+    "grunt-contrib-jade": "^0.12.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.3",
+    "grunt-rsync": "^0.6.1",
+    "matchdep": "^0.3.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-bower-install": "^1.6.0",
+    "grunt-contrib-imagemin": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-rev": "^0.1.0",
+    "grunt-autoprefixer": "^1.0.1",
+    "grunt-usemin": "^2.3.0",
+    "grunt-newer": "^0.7.0",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  }
+}

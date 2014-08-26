@@ -1,0 +1,18 @@
+// This tells if is an inner page or root page
+// so we can define the correct path
+- var path = inner ? "../" : "/"
+
+doctype html
+html(lang="en")
+  head
+    title= "Jade Starter"
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    <!-- Place favicon.ico and apple-touc-icon.png in the root directory -->
+    <!-- build:css css/vendor.min.css -->
+    <!-- bower:css -->
+
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    link(rel="stylesheet", href= path + "css/style.css")
